@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>字体加载测试</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/fonts.css">
+<style>
+  body { background: #1e1e2e; color: #cdd6f4; padding: 40px; max-width: 900px; margin: 0 auto; }
+  h2 { color: #cba6f7; border-bottom: 1px solid #45475a; padding-bottom: 8px; }
+  .test { margin-bottom: 40px; }
+  .sample { font-size: 24px; line-height: 1.6; margin-bottom: 8px; }
+  .info { font-size: 13px; color: #6c7086; }
+  .jbm { font-family: 'JetBrains Mono', monospace; }
+  .jbm-italic { font-family: 'JetBrains Mono', monospace; font-style: italic; font-weight: normal; }
+  .jbm-bold { font-family: 'JetBrains Mono', monospace; font-weight: bold; }
+  .jbm-bold-italic { font-family: 'JetBrains Mono', monospace; font-weight: bold; font-style: italic; }
+  .jbm-500 { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+  .jbm-500-italic { font-family: 'JetBrains Mono', monospace; font-weight: 500; font-style: italic; }
+  .jbm-800 { font-family: 'JetBrains Mono', monospace; font-weight: 800; }
+  .jbm-800-italic { font-family: 'JetBrains Mono', monospace; font-weight: 800; font-style: italic; }
+  .jin { font-family: 'TsangerJinKai02-W04', cursive; font-size: 32px; }
+  .nerd { font-family: 'Symbols Nerd Font Mono', monospace; font-size: 28px; }
+  .nerd-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+  .nerd-list span { font-size: 20px; }
+  .status { padding: 12px 20px; border-radius: 8px; margin-bottom: 24px; }
+  .status-ok { background: #a6e3a1; color: #1e1e2e; }
+  .status-err { background: #f38ba8; color: #1e1e2e; }
+</style>
+</head>
+<body>
+
+<h1 style="color: #f5c2e7;">Font Loading Test - jsDelivr CDN</h1>
+<div class="status status-ok" id="status">正在检测字体加载...</div>
+
+<div class="test">
+  <h2>JetBrains Mono (Regular 400)</h2>
+  <div class="sample jbm" id="jbm-test">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: normal / font-style: normal</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (Italic 400)</h2>
+  <div class="sample jbm-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: normal / font-style: italic</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (Medium 500)</h2>
+  <div class="sample jbm-500">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: 500 / font-style: normal</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (Medium Italic 500)</h2>
+  <div class="sample jbm-500-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: 500 / font-style: italic</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (Bold 700)</h2>
+  <div class="sample jbm-bold">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: bold / font-style: normal</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (Bold Italic 700)</h2>
+  <div class="sample jbm-bold-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: bold / font-style: italic</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (ExtraBold 800)</h2>
+  <div class="sample jbm-800">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: 800 / font-style: normal</div>
+</div>
+
+<div class="test">
+  <h2>JetBrains Mono (ExtraBold Italic 800)</h2>
+  <div class="sample jbm-800-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="info">font-weight: 800 / font-style: italic</div>
+</div>
+
+<div class="test">
+  <h2>TsangerJinKai02-W04 仓劲楷体</h2>
+  <div class="sample jin">春江潮水连海平，海上明月共潮生。</div>
+  <div class="info">仓劲楷体 - TsangerJinKai02-W04</div>
+</div>
+
+<div class="test">
+  <h2>Symbols Nerd Font Mono - 图标 Test</h2>
+  <div class="sample nerd">
+                                
+  </div>
+  <div class="info">Nerd Font 图标符号</div>
+</div>
+
+<div class="test">
+  <h2>Nerd Font 编程用图标</h2>
+  <div class="nerd-list">
+    <span>  code</span>
+    <span>  git-branch</span>
+    <span>  check</span>
+    <span>  cross</span>
+    <span>  folder</span>
+    <span>  file</span>
+    <span>  search</span>
+    <span>  config</span>
+    <span>  undo</span>
+    <span>  sync</span>
+    <span>  terminal</span>
+    <span>  vim</span>
+    <span>  npm</span>
+    <span>  docker</span>
+    <span>  github</span>
+    <span>  lock</span>
+  </div>
+  <div class="info">编程常用 Nerd Font 图标</div>
+</div>
+
+<script>
+document.fonts.ready.then(() => {
+  const fonts = document.fonts;
+  const checks = [
+    { name: 'JetBrains Mono', weight: 'normal', style: 'normal' },
+    { name: 'JetBrains Mono', weight: 'bold', style: 'normal' },
+    { name: 'JetBrains Mono', weight: '800', style: 'normal' },
+    { name: 'Symbols Nerd Font Mono', weight: 'normal', style: 'normal' },
+    { name: 'TsangerJinKai02-W04', weight: 'normal', style: 'normal' },
+  ];
+
+  let allOk = true;
+  checks.forEach(c => {
+    const found = fonts.check(`12px "${c.name}"`);
+    if (!found) allOk = false;
+  });
+
+  const status = document.getElementById('status');
+  if (allOk) {
+    status.textContent = '所有字体加载成功！';
+    status.className = 'status status-ok';
+  } else {
+    status.textContent = '部分字体加载失败，请检查 CDN 地址或网络连接。';
+    status.className = 'status status-err';
+  }
+});
+</script>
+
+</body>
+</html>
