@@ -8,10 +8,10 @@
 |--------|------|------|
 | JetBrains Mono | 8 (Regular~ExtraBold × 正常+斜体) | 等宽编程字体 |
 | JetBrains Maple Mono | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains 带连字风格 |
-| JetBrains Mono Nerd Font | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains Mono + Nerd 图标 |
-| JetBrains Mono Nerd Font Mono | 16 (Thin~ExtraBold × 正常+斜体) | 同上，等宽版本 |
-| JetBrains Mono NL Nerd Font | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains Mono + Nerd 图标（无连字） |
-| JetBrains Mono NL Nerd Font Mono | 16 (Thin~ExtraBold × 正常+斜体) | 同上，等宽版本 |
+| JetBrainsMono Nerd Font | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains Mono + Nerd 图标 |
+| JetBrainsMono Nerd Font Mono | 16 (Thin~ExtraBold × 正常+斜体) | 同上，等宽版本 |
+| JetBrainsMonoNL Nerd Font | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains Mono + Nerd 图标（无连字） |
+| JetBrainsMonoNL Nerd Font Mono | 16 (Thin~ExtraBold × 正常+斜体) | 同上，等宽版本 |
 | LXGW WenKai | Regular / Medium | 霞鹜文楷 |
 | LXGW WenKai Mono | Regular | 霞鹜文楷等宽版 |
 | LXGW WenKai Screen | Regular | 霞鹜文楷屏幕优化版 |
@@ -33,10 +33,10 @@
 /* JetBrains Mono 系列 */
 font-family: 'JetBrains Mono', monospace;
 font-family: 'JetBrains Maple Mono', monospace;
-font-family: 'JetBrains Mono Nerd Font', monospace;
-font-family: 'JetBrains Mono Nerd Font Mono', monospace;
-font-family: 'JetBrains Mono NL Nerd Font', monospace;
-font-family: 'JetBrains Mono NL Nerd Font Mono', monospace;
+font-family: 'JetBrainsMono Nerd Font', monospace;
+font-family: 'JetBrainsMono Nerd Font Mono', monospace;
+font-family: 'JetBrainsMonoNL Nerd Font', monospace;
+font-family: 'JetBrainsMonoNL Nerd Font Mono', monospace;
 
 /* LXGW 文楷系列 */
 font-family: 'LXGW WenKai', cursive;
