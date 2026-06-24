@@ -16,7 +16,7 @@
 | LXGW WenKai Mono | Regular | 霞鹜文楷等宽版 |
 | LXGW WenKai Screen | Regular | 霞鹜文楷屏幕优化版 |
 | Zed Mono | 4 (Regular/Bold × 正常+斜体) | Zed 编辑器等宽扩展字体 |
-| TsangerJinKai02-W04 | Regular | 仓劲楷体 |
+| TsangerJinKai02-W04 | Regular | 仓耳今楷 |
 | Symbols Nerd Font Mono | Regular | Nerd Font 图标字体 |
 
 ## 使用方式
