@@ -11,18 +11,6 @@
   .test { margin-bottom: 40px; }
   .sample { font-size: 24px; line-height: 1.6; margin-bottom: 8px; }
   .info { font-size: 13px; color: #6c7086; }
-  .jbm { font-family: 'JetBrains Mono', monospace; }
-  .jbm-italic { font-family: 'JetBrains Mono', monospace; font-style: italic; font-weight: normal; }
-  .jbm-bold { font-family: 'JetBrains Mono', monospace; font-weight: bold; }
-  .jbm-bold-italic { font-family: 'JetBrains Mono', monospace; font-weight: bold; font-style: italic; }
-  .jbm-500 { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
-  .jbm-500-italic { font-family: 'JetBrains Mono', monospace; font-weight: 500; font-style: italic; }
-  .jbm-800 { font-family: 'JetBrains Mono', monospace; font-weight: 800; }
-  .jbm-800-italic { font-family: 'JetBrains Mono', monospace; font-weight: 800; font-style: italic; }
-  .jin { font-family: 'TsangerJinKai02-W04', cursive; font-size: 32px; }
-  .nerd { font-family: 'Symbols Nerd Font Mono', monospace; font-size: 28px; }
-  .nerd-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
-  .nerd-list span { font-size: 20px; }
   .status { padding: 12px 20px; border-radius: 8px; margin-bottom: 24px; }
   .status-ok { background: #a6e3a1; color: #1e1e2e; }
   .status-err { background: #f38ba8; color: #1e1e2e; }
@@ -33,105 +21,115 @@
 <h1 style="color: #f5c2e7;">Font Loading Test - jsDelivr CDN</h1>
 <div class="status status-ok" id="status">正在检测字体加载...</div>
 
+<!-- JetBrains Mono -->
 <div class="test">
-  <h2>JetBrains Mono (Regular 400)</h2>
-  <div class="sample jbm" id="jbm-test">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: normal / font-style: normal</div>
+  <h2>JetBrains Mono (Regular / Medium / Bold / ExtraBold)</h2>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace;">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-style:italic;">The quick brown fox jumps over the lazy dog. 0123456789 (italic)</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:500;">The quick brown fox jumps over the lazy dog. 0123456789 (500)</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:bold;">The quick brown fox jumps over the lazy dog. 0123456789 (bold)</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:800;">The quick brown fox jumps over the lazy dog. 0123456789 (800)</div>
+</div>
+
+<!-- JetBrains Maple Mono -->
+<div class="test">
+  <h2>JetBrains Maple Mono</h2>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-style:italic;">The quick brown fox jumps over the lazy dog. 0123456789 (italic)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:300;">The quick brown fox jumps over the lazy dog. 0123456789 (light)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:600;">The quick brown fox jumps over the lazy dog. 0123456789 (semibold)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:bold;">The quick brown fox jumps over the lazy dog. 0123456789 (bold)</div>
+</div>
+
+<!-- JetBrains Mono Nerd Font -->
+<div class="test">
+  <h2>JetBrains Mono Nerd Font</h2>
+  <div class="sample" style="font-family:'JetBrains Mono Nerd Font',monospace; font-size:18px;">The quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrains Mono Nerd Font',monospace; font-weight:bold; font-size:18px;">The quick brown fox        (bold)</div>
+</div>
+
+<!-- JetBrains Mono Nerd Font Mono -->
+<div class="test">
+  <h2>JetBrains Mono Nerd Font Mono</h2>
+  <div class="sample" style="font-family:'JetBrains Mono Nerd Font Mono',monospace; font-size:18px;">The quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrains Mono Nerd Font Mono',monospace; font-weight:bold; font-size:18px;">The quick brown fox        (bold)</div>
+</div>
+
+<!-- JetBrains Mono NL Nerd Font -->
+<div class="test">
+  <h2>JetBrains Mono NL Nerd Font</h2>
+  <div class="sample" style="font-family:'JetBrains Mono NL Nerd Font',monospace; font-size:18px;">The quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrains Mono NL Nerd Font',monospace; font-weight:bold; font-size:18px;">The quick brown fox        (bold)</div>
+</div>
+
+<!-- JetBrains Mono NL Nerd Font Mono -->
+<div class="test">
+  <h2>JetBrains Mono NL Nerd Font Mono</h2>
+  <div class="sample" style="font-family:'JetBrains Mono NL Nerd Font Mono',monospace; font-size:18px;">The quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrains Mono NL Nerd Font Mono',monospace; font-weight:bold; font-size:18px;">The quick brown fox        (bold)</div>
+</div>
+
+<!-- LXGW WenKai -->
+<div class="test">
+  <h2>LXGW WenKai 霞鹜文楷</h2>
+  <div class="sample" style="font-family:'LXGW WenKai',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
+  <div class="sample" style="font-family:'LXGW WenKai',cursive; font-weight:500; font-size:32px;">春江潮水连海平，海上明月共潮生。(medium)</div>
 </div>
 
 <div class="test">
-  <h2>JetBrains Mono (Italic 400)</h2>
-  <div class="sample jbm-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: normal / font-style: italic</div>
+  <h2>LXGW WenKai Mono</h2>
+  <div class="sample" style="font-family:'LXGW WenKai Mono',monospace; font-size:24px;">The quick brown fox jumps over the lazy dog. 0123456789</div>
 </div>
 
 <div class="test">
-  <h2>JetBrains Mono (Medium 500)</h2>
-  <div class="sample jbm-500">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: 500 / font-style: normal</div>
+  <h2>LXGW WenKai Screen</h2>
+  <div class="sample" style="font-family:'LXGW WenKai Screen',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
 </div>
 
+<!-- Zed Mono Extended -->
 <div class="test">
-  <h2>JetBrains Mono (Medium Italic 500)</h2>
-  <div class="sample jbm-500-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: 500 / font-style: italic</div>
+  <h2>Zed Mono Extended</h2>
+  <div class="sample" style="font-family:'Zed Mono Extended',monospace;">The quick brown fox jumps over the lazy dog. 0123456789</div>
+  <div class="sample" style="font-family:'Zed Mono Extended',monospace; font-style:italic;">The quick brown fox jumps over the lazy dog. 0123456789 (italic)</div>
+  <div class="sample" style="font-family:'Zed Mono Extended',monospace; font-weight:bold;">The quick brown fox jumps over the lazy dog. 0123456789 (bold)</div>
+  <div class="sample" style="font-family:'Zed Mono Extended',monospace; font-weight:bold; font-style:italic;">The quick brown fox jumps over the lazy dog. 0123456789 (bold italic)</div>
 </div>
 
-<div class="test">
-  <h2>JetBrains Mono (Bold 700)</h2>
-  <div class="sample jbm-bold">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: bold / font-style: normal</div>
-</div>
-
-<div class="test">
-  <h2>JetBrains Mono (Bold Italic 700)</h2>
-  <div class="sample jbm-bold-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: bold / font-style: italic</div>
-</div>
-
-<div class="test">
-  <h2>JetBrains Mono (ExtraBold 800)</h2>
-  <div class="sample jbm-800">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: 800 / font-style: normal</div>
-</div>
-
-<div class="test">
-  <h2>JetBrains Mono (ExtraBold Italic 800)</h2>
-  <div class="sample jbm-800-italic">The quick brown fox jumps over the lazy dog. 0123456789</div>
-  <div class="info">font-weight: 800 / font-style: italic</div>
-</div>
-
+<!-- TsangerJinKai -->
 <div class="test">
   <h2>TsangerJinKai02-W04 仓劲楷体</h2>
-  <div class="sample jin">春江潮水连海平，海上明月共潮生。</div>
-  <div class="info">仓劲楷体 - TsangerJinKai02-W04</div>
+  <div class="sample" style="font-family:'TsangerJinKai02-W04',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
 </div>
 
+<!-- Symbols Nerd Font Mono -->
 <div class="test">
-  <h2>Symbols Nerd Font Mono - 图标 Test</h2>
-  <div class="sample nerd">
+  <h2>Symbols Nerd Font Mono - 图标</h2>
+  <div class="sample" style="font-family:'Symbols Nerd Font Mono',monospace; font-size:28px;">
                                 
   </div>
-  <div class="info">Nerd Font 图标符号</div>
-</div>
-
-<div class="test">
-  <h2>Nerd Font 编程用图标</h2>
-  <div class="nerd-list">
-    <span>  code</span>
-    <span>  git-branch</span>
-    <span>  check</span>
-    <span>  cross</span>
-    <span>  folder</span>
-    <span>  file</span>
-    <span>  search</span>
-    <span>  config</span>
-    <span>  undo</span>
-    <span>  sync</span>
-    <span>  terminal</span>
-    <span>  vim</span>
-    <span>  npm</span>
-    <span>  docker</span>
-    <span>  github</span>
-    <span>  lock</span>
-  </div>
-  <div class="info">编程常用 Nerd Font 图标</div>
 </div>
 
 <script>
 document.fonts.ready.then(() => {
   const fonts = document.fonts;
   const checks = [
-    { name: 'JetBrains Mono', weight: 'normal', style: 'normal' },
-    { name: 'JetBrains Mono', weight: 'bold', style: 'normal' },
-    { name: 'JetBrains Mono', weight: '800', style: 'normal' },
-    { name: 'Symbols Nerd Font Mono', weight: 'normal', style: 'normal' },
-    { name: 'TsangerJinKai02-W04', weight: 'normal', style: 'normal' },
+    'JetBrains Mono',
+    'JetBrains Maple Mono',
+    'JetBrains Mono Nerd Font',
+    'JetBrains Mono Nerd Font Mono',
+    'JetBrains Mono NL Nerd Font',
+    'JetBrains Mono NL Nerd Font Mono',
+    'LXGW WenKai',
+    'LXGW WenKai Mono',
+    'LXGW WenKai Screen',
+    'Zed Mono Extended',
+    'TsangerJinKai02-W04',
+    'Symbols Nerd Font Mono',
   ];
 
   let allOk = true;
-  checks.forEach(c => {
-    const found = fonts.check(`12px "${c.name}"`);
+  checks.forEach(name => {
+    const found = fonts.check(`12px "${name}"`);
     if (!found) allOk = false;
   });
 
