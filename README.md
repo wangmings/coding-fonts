@@ -6,18 +6,18 @@
 
 | 字体名 | 变体 | 说明 |
 |--------|------|------|
-| JetBrains Mono | 8 (Regular~ExtraBold × 正常+斜体) | 等宽编程字体 |
-| JetBrains Maple Mono | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains 带连字风格 |
-| JetBrainsMono Nerd Font | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains Mono + Nerd 图标 |
-| JetBrainsMono Nerd Font Mono | 16 (Thin~ExtraBold × 正常+斜体) | 同上，等宽版本 |
-| JetBrainsMonoNL Nerd Font | 16 (Thin~ExtraBold × 正常+斜体) | JetBrains Mono + Nerd 图标（无连字） |
-| JetBrainsMonoNL Nerd Font Mono | 16 (Thin~ExtraBold × 正常+斜体) | 同上，等宽版本 |
-| LXGW WenKai | Regular / Medium | 霞鹜文楷 |
-| LXGW WenKai Mono | Regular | 霞鹜文楷等宽版 |
-| LXGW WenKai Screen | Regular | 霞鹜文楷屏幕优化版 |
-| Zed Mono | 4 (Regular/Bold × 正常+斜体) | Zed 编辑器等宽扩展字体 |
-| TsangerJinKai02-W04 | Regular | 仓耳今楷 |
-| Symbols Nerd Font Mono | Regular | Nerd Font 图标字体 |
+| JetBrains Mono | 8 (标准~特粗 × 正常+斜体) | 英文等宽编程字体，中英文比例 1:2 |
+| JetBrains Maple Mono | 16 (细体~特粗 × 正常+斜体) | 中英等宽编程字体，中英文比例 1:2 |
+| JetBrainsMono Nerd Font | 16 (细体~特粗 × 正常+斜体) | JetBrains Mono + Nerd 图标 |
+| JetBrainsMono Nerd Font Mono | 16 (细体~特粗 × 正常+斜体) | JetBrains Mono + Nerd 图标 |
+| JetBrainsMonoNL Nerd Font | 16 (细体~特粗 × 正常+斜体) | JetBrains Mono + Nerd 图标（无连字） |
+| JetBrainsMonoNL Nerd Font Mono | 16 (细体~特粗 × 正常+斜体) | JetBrains Mono + Nerd 图标（无连字） |
+| LXGW WenKai | 标准 / 中等 | 霞鹜文楷 |
+| LXGW WenKai Mono | 标准 | 霞鹜文楷等宽版 |
+| LXGW WenKai Screen | 标准 | 霞鹜文楷屏幕优化版 |
+| Zed Mono | 4 (标准/粗体 × 正常+斜体) | Zed 编辑器等宽扩展字体 |
+| TsangerJinKai02-W04 | 标准 | 仓耳今楷 |
+| Symbols Nerd Font Mono | 标准 | Nerd Font 图标字体 |
 
 ## 使用方式
 
