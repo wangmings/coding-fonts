@@ -125,13 +125,13 @@
 @font-face { font-family:'LXGW WenKai Screen'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/LXGWWenKaiScreen.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
 
 /* ======================================
-   8. Zed Mono Extended - 4 变体
-   字体名: Zed Mono Extended
+   8. Zed Mono - 4 变体
+   字体名: Zed Mono
    ====================================== */
-@font-face { font-family:'Zed Mono Extended'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extended.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
-@font-face { font-family:'Zed Mono Extended'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendeditalic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
-@font-face { font-family:'Zed Mono Extended'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendedbold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
-@font-face { font-family:'Zed Mono Extended'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendedbolditalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extended.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendeditalic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendedbold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendedbolditalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
 
 /* ======================================
    9. 仓劲楷体

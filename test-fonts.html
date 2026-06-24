@@ -14,6 +14,7 @@
   .status { padding: 12px 20px; border-radius: 8px; margin-bottom: 24px; }
   .status-ok { background: #a6e3a1; color: #1e1e2e; }
   .status-err { background: #f38ba8; color: #1e1e2e; }
+  .sep { border: none; border-top: 1px solid #45475a; margin: 6px 0 8px 0; }
 </style>
 </head>
 <body>
@@ -23,7 +24,8 @@
 
 <!-- JetBrains Mono -->
 <div class="test">
-  <h2>JetBrains Mono (Regular / Medium / Bold / ExtraBold)</h2>
+  <h2>JetBrains Mono (有连字)</h2>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace;">==> != <= >= -> => :: ===</div>
   <div class="sample" style="font-family:'JetBrains Mono',monospace;">Quick brown fox 1234567890</div>
   <div class="sample" style="font-family:'JetBrains Mono',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
   <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:500;">Quick brown fox 1234567890 (500)</div>
@@ -33,45 +35,65 @@
 
 <!-- JetBrains Maple Mono -->
 <div class="test">
-  <h2>JetBrains Maple Mono</h2>
+  <h2>JetBrains Maple Mono（中英等宽 · 有连字）</h2>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">==> != <= >= -> => :: ===</div>
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">春江潮水连海平，海上明月共潮生。</div>
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">Quick brown fox 1234567890</div>
+  <hr class="sep">
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-style:italic;">春江潮水连海平，海上明月共潮生。(italic)</div>
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
+  <hr class="sep">
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:300;">春江潮水连海平，海上明月共潮生。(light)</div>
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:300;">Quick brown fox 1234567890 (light)</div>
+  <hr class="sep">
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:600;">春江潮水连海平，海上明月共潮生。(semibold)</div>
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:600;">Quick brown fox 1234567890 (semibold)</div>
+  <hr class="sep">
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:bold;">春江潮水连海平，海上明月共潮生。(bold)</div>
   <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:bold;">Quick brown fox 1234567890 (bold)</div>
 </div>
 
 <!-- JetBrains Mono Nerd Font -->
 <div class="test">
-  <h2>JetBrains Mono Nerd Font</h2>
+  <h2>JetBrains Mono Nerd Font (有连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
   <div class="sample" style="font-family:'JetBrainsMono Nerd Font',monospace; font-size:18px;">Quick brown fox       </div>
   <div class="sample" style="font-family:'JetBrainsMono Nerd Font',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
 </div>
 
 <!-- JetBrains Mono Nerd Font Mono -->
 <div class="test">
-  <h2>JetBrains Mono Nerd Font Mono</h2>
+  <h2>JetBrains Mono Nerd Font Mono (有连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font Mono',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
   <div class="sample" style="font-family:'JetBrainsMono Nerd Font Mono',monospace; font-size:18px;">Quick brown fox       </div>
   <div class="sample" style="font-family:'JetBrainsMono Nerd Font Mono',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
 </div>
 
 <!-- JetBrains Mono NL Nerd Font -->
 <div class="test">
-  <h2>JetBrains Mono NL Nerd Font</h2>
+  <h2>JetBrains Mono NL Nerd Font (无连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
   <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font',monospace; font-size:18px;">Quick brown fox       </div>
   <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
 </div>
 
 <!-- JetBrains Mono NL Nerd Font Mono -->
 <div class="test">
-  <h2>JetBrains Mono NL Nerd Font Mono</h2>
+  <h2>JetBrains Mono NL Nerd Font Mono (无连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font Mono',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
   <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font Mono',monospace; font-size:18px;">Quick brown fox       </div>
   <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font Mono',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
+</div>
+
+
+<!-- Zed Mono -->
+<div class="test">
+  <h2>Zed Mono (有连字)</h2>
+  <div class="sample" style="font-family:'Zed Mono',monospace;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace;">Quick brown fox 1234567890</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace; font-weight:bold;">Quick brown fox 1234567890 (bold)</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace; font-weight:bold; font-style:italic;">Quick brown fox 1234567890 (bold italic)</div>
 </div>
 
 <!-- LXGW WenKai -->
@@ -91,14 +113,6 @@
   <div class="sample" style="font-family:'LXGW WenKai Screen',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
 </div>
 
-<!-- Zed Mono Extended -->
-<div class="test">
-  <h2>Zed Mono Extended</h2>
-  <div class="sample" style="font-family:'Zed Mono Extended',monospace;">Quick brown fox 1234567890</div>
-  <div class="sample" style="font-family:'Zed Mono Extended',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
-  <div class="sample" style="font-family:'Zed Mono Extended',monospace; font-weight:bold;">Quick brown fox 1234567890 (bold)</div>
-  <div class="sample" style="font-family:'Zed Mono Extended',monospace; font-weight:bold; font-style:italic;">Quick brown fox 1234567890 (bold italic)</div>
-</div>
 
 <!-- TsangerJinKai -->
 <div class="test">
@@ -127,7 +141,7 @@ document.fonts.ready.then(() => {
     'LXGW WenKai',
     'LXGW WenKai Mono',
     'LXGW WenKai Screen',
-    'Zed Mono Extended',
+    'Zed Mono',
     'TsangerJinKai02-W04',
     'Symbols Nerd Font Mono',
   ];

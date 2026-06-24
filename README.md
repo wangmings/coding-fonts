@@ -15,7 +15,7 @@
 | LXGW WenKai | Regular / Medium | 霞鹜文楷 |
 | LXGW WenKai Mono | Regular | 霞鹜文楷等宽版 |
 | LXGW WenKai Screen | Regular | 霞鹜文楷屏幕优化版 |
-| Zed Mono Extended | 4 (Regular/Bold × 正常+斜体) | Zed 编辑器等宽扩展字体 |
+| Zed Mono | 4 (Regular/Bold × 正常+斜体) | Zed 编辑器等宽扩展字体 |
 | TsangerJinKai02-W04 | Regular | 仓劲楷体 |
 | Symbols Nerd Font Mono | Regular | Nerd Font 图标字体 |
 
@@ -44,7 +44,7 @@ font-family: 'LXGW WenKai Mono', monospace;
 font-family: 'LXGW WenKai Screen', cursive;
 
 /* 其他 */
-font-family: 'Zed Mono Extended', monospace;
+font-family: 'Zed Mono', monospace;
 font-family: 'TsangerJinKai02-W04', cursive;
 font-family: 'Symbols Nerd Font Mono', monospace;
 ```
