@@ -53,15 +53,3 @@ font-family: 'Symbols Nerd Font Mono', monospace;
 
 ### 直接引用单个字体文件
 
-```
-https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Regular.ttf
-https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Regular.ttf
-https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/LXGWWenKai-Regular.ttf
-https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extended.ttf
-https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/TsangerJinKai02-W04.ttf
-https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/SymbolsNerdFontMono-Regular.ttf
-```
-
-## 测试
-
-用浏览器打开 `test-fonts.html` 可查看所有字体渲染效果。
