@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>字体加载测试</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2.css">
+<style>
+  body { background: #1e1e2e; color: #cdd6f4; padding: 40px; max-width: 900px; margin: 0 auto; }
+  h2 { color: #cba6f7; border-bottom: 1px solid #45475a; padding-bottom: 8px; }
+  .test { margin-bottom: 40px; }
+  .sample { font-size: 24px; line-height: 1.6; margin-bottom: 8px; }
+  .info { font-size: 13px; color: #6c7086; }
+  .status { padding: 12px 20px; border-radius: 8px; margin-bottom: 24px; }
+  .status-ok { background: #a6e3a1; color: #1e1e2e; }
+  .status-err { background: #f38ba8; color: #1e1e2e; }
+  .sep { border: none; border-top: 1px solid #45475a; margin: 6px 0 8px 0; }
+</style>
+</head>
+<body>
+
+<h1 style="color: #f5c2e7;">Font Loading Test - jsDelivr CDN</h1>
+<div class="status status-ok" id="status">正在检测字体加载...</div>
+
+<!-- JetBrains Mono -->
+<div class="test">
+  <h2>JetBrains Mono (有连字)</h2>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace;">Quick brown fox 1234567890</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:500;">Quick brown fox 1234567890 (500)</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:bold;">Quick brown fox 1234567890 (bold)</div>
+  <div class="sample" style="font-family:'JetBrains Mono',monospace; font-weight:800;">Quick brown fox 1234567890 (800)</div>
+</div>
+
+<!-- JetBrains Maple Mono -->
+<div class="test">
+  <h2>JetBrains Maple Mono（中英等宽 · 有连字）</h2>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">春江潮水连海平，海上明月共潮生。</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace;">Quick brown fox 1234567890</div>
+  <hr class="sep">
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-style:italic;">春江潮水连海平，海上明月共潮生。(italic)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
+  <hr class="sep">
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:300;">春江潮水连海平，海上明月共潮生。(light)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:300;">Quick brown fox 1234567890 (light)</div>
+  <hr class="sep">
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:600;">春江潮水连海平，海上明月共潮生。(semibold)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:600;">Quick brown fox 1234567890 (semibold)</div>
+  <hr class="sep">
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:bold;">春江潮水连海平，海上明月共潮生。(bold)</div>
+  <div class="sample" style="font-family:'JetBrains Maple Mono',monospace; font-weight:bold;">Quick brown fox 1234567890 (bold)</div>
+</div>
+
+<!-- JetBrains Mono Nerd Font -->
+<div class="test">
+  <h2>JetBrains Mono Nerd Font (有连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font',monospace; font-size:18px;">Quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
+</div>
+
+<!-- JetBrains Mono Nerd Font Mono -->
+<div class="test">
+  <h2>JetBrains Mono Nerd Font Mono (有连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font Mono',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font Mono',monospace; font-size:18px;">Quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrainsMono Nerd Font Mono',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
+</div>
+
+<!-- JetBrains Mono NL Nerd Font -->
+<div class="test">
+  <h2>JetBrains Mono NL Nerd Font (无连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font',monospace; font-size:18px;">Quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
+</div>
+
+<!-- JetBrains Mono NL Nerd Font Mono -->
+<div class="test">
+  <h2>JetBrains Mono NL Nerd Font Mono (无连字)</h2>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font Mono',monospace; font-size:18px;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font Mono',monospace; font-size:18px;">Quick brown fox       </div>
+  <div class="sample" style="font-family:'JetBrainsMonoNL Nerd Font Mono',monospace; font-weight:bold; font-size:18px;">Quick brown fox        (bold)</div>
+</div>
+
+
+<!-- Zed Mono -->
+<div class="test">
+  <h2>Zed Mono (有连字)</h2>
+  <div class="sample" style="font-family:'Zed Mono',monospace;">==> != <= >= -> => :: ===</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace;">Quick brown fox 1234567890</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace; font-style:italic;">Quick brown fox 1234567890 (italic)</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace; font-weight:bold;">Quick brown fox 1234567890 (bold)</div>
+  <div class="sample" style="font-family:'Zed Mono',monospace; font-weight:bold; font-style:italic;">Quick brown fox 1234567890 (bold italic)</div>
+</div>
+
+<!-- LXGW WenKai -->
+<div class="test">
+  <h2>LXGW WenKai 霞鹜文楷</h2>
+  <div class="sample" style="font-family:'LXGW WenKai',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
+  <div class="sample" style="font-family:'LXGW WenKai',cursive; font-weight:500; font-size:32px;">春江潮水连海平，海上明月共潮生。(medium)</div>
+</div>
+
+<div class="test">
+  <h2>LXGW WenKai Mono 霞鹜文楷等宽</h2>
+  <div class="sample" style="font-family:'LXGW WenKai Mono',monospace; font-size:24px;">春江潮水连海平，海上明月共潮生。</div>
+</div>
+
+<div class="test">
+  <h2>LXGW WenKai Screen 霞鹜文楷屏幕版</h2>
+  <div class="sample" style="font-family:'LXGW WenKai Screen',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
+</div>
+
+
+<!-- TsangerJinKai -->
+<div class="test">
+  <h2>TsangerJinKai02-W04 仓耳今楷</h2>
+  <div class="sample" style="font-family:'TsangerJinKai02-W04',cursive; font-size:32px;">春江潮水连海平，海上明月共潮生。</div>
+</div>
+
+<!-- Symbols Nerd Font Mono -->
+<div class="test">
+  <h2>Symbols Nerd Font Mono - 图标</h2>
+  <div class="sample" style="font-family:'Symbols Nerd Font Mono',monospace; font-size:28px;">
+                                
+  </div>
+</div>
+
+<script>
+document.fonts.ready.then(() => {
+  const fonts = document.fonts;
+  const checks = [
+    'JetBrains Mono',
+    'JetBrains Maple Mono',
+    'JetBrainsMono Nerd Font',
+    'JetBrainsMono Nerd Font Mono',
+    'JetBrainsMonoNL Nerd Font',
+    'JetBrainsMonoNL Nerd Font Mono',
+    'LXGW WenKai',
+    'LXGW WenKai Mono',
+    'LXGW WenKai Screen',
+    'Zed Mono',
+    'TsangerJinKai02-W04',
+    'Symbols Nerd Font Mono',
+  ];
+
+  let allOk = true;
+  checks.forEach(name => {
+    const found = fonts.check(`12px "${name}"`);
+    if (!found) allOk = false;
+  });
+
+  const status = document.getElementById('status');
+  if (allOk) {
+    status.textContent = '所有字体加载成功！';
+    status.className = 'status status-ok';
+  } else {
+    status.textContent = '部分字体加载失败，请检查 CDN 地址或网络连接。';
+    status.className = 'status status-err';
+  }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* ======================================
+   1. JetBrains Mono - 8 变体
+   字体名: JetBrains Mono
+   ====================================== */
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Italic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Medium-Italic.ttf') format('truetype'); font-weight:500; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Bold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-Bold-Italic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-ExtraBold.ttf') format('truetype'); font-weight:800; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMono-ExtraBold-Italic.ttf') format('truetype'); font-weight:800; font-style:italic; font-display:swap; }
+
+/* ======================================
+   2. JetBrains Maple Mono - 16 变体
+   字体名: JetBrains Maple Mono
+   ====================================== */
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Thin.ttf') format('truetype'); font-weight:100; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-ThinItalic.ttf') format('truetype'); font-weight:100; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-ExtraLight.ttf') format('truetype'); font-weight:200; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-ExtraLightItalic.ttf') format('truetype'); font-weight:200; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Light.ttf') format('truetype'); font-weight:300; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-LightItalic.ttf') format('truetype'); font-weight:300; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Italic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-MediumItalic.ttf') format('truetype'); font-weight:500; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-SemiBold.ttf') format('truetype'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-SemiBoldItalic.ttf') format('truetype'); font-weight:600; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-Bold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-BoldItalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-ExtraBold.ttf') format('truetype'); font-weight:800; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrains Maple Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMapleMono-ExtraBoldItalic.ttf') format('truetype'); font-weight:800; font-style:italic; font-display:swap; }
+
+/* ======================================
+   3. JetBrainsMonoNerdFont - 16 变体
+   字体名: JetBrainsMono Nerd Font
+   ====================================== */
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-Thin.ttf') format('truetype'); font-weight:100; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-ThinItalic.ttf') format('truetype'); font-weight:100; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-ExtraLight.ttf') format('truetype'); font-weight:200; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-ExtraLightItalic.ttf') format('truetype'); font-weight:200; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-Light.ttf') format('truetype'); font-weight:300; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-LightItalic.ttf') format('truetype'); font-weight:300; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-Italic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-MediumItalic.ttf') format('truetype'); font-weight:500; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-SemiBold.ttf') format('truetype'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-SemiBoldItalic.ttf') format('truetype'); font-weight:600; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-Bold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-BoldItalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-ExtraBold.ttf') format('truetype'); font-weight:800; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFont-ExtraBoldItalic.ttf') format('truetype'); font-weight:800; font-style:italic; font-display:swap; }
+
+/* ======================================
+   4. JetBrainsMonoNerdFontMono - 16 变体
+   字体名: JetBrainsMono Nerd Font Mono
+   ====================================== */
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-Thin.ttf') format('truetype'); font-weight:100; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-ThinItalic.ttf') format('truetype'); font-weight:100; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-ExtraLight.ttf') format('truetype'); font-weight:200; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf') format('truetype'); font-weight:200; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-Light.ttf') format('truetype'); font-weight:300; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-LightItalic.ttf') format('truetype'); font-weight:300; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-Italic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-MediumItalic.ttf') format('truetype'); font-weight:500; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-SemiBold.ttf') format('truetype'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf') format('truetype'); font-weight:600; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-Bold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-BoldItalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-ExtraBold.ttf') format('truetype'); font-weight:800; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMono Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf') format('truetype'); font-weight:800; font-style:italic; font-display:swap; }
+
+/* ======================================
+   5. JetBrainsMonoNLNerdFont - 16 变体
+   字体名: JetBrainsMonoNL Nerd Font
+   ====================================== */
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-Thin.ttf') format('truetype'); font-weight:100; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-ThinItalic.ttf') format('truetype'); font-weight:100; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-ExtraLight.ttf') format('truetype'); font-weight:200; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf') format('truetype'); font-weight:200; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-Light.ttf') format('truetype'); font-weight:300; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-LightItalic.ttf') format('truetype'); font-weight:300; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-Italic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-MediumItalic.ttf') format('truetype'); font-weight:500; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-SemiBold.ttf') format('truetype'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf') format('truetype'); font-weight:600; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-Bold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-BoldItalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-ExtraBold.ttf') format('truetype'); font-weight:800; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf') format('truetype'); font-weight:800; font-style:italic; font-display:swap; }
+
+/* ======================================
+   6. JetBrainsMonoNLNerdFontMono - 16 变体
+   字体名: JetBrainsMonoNL Nerd Font Mono
+   ====================================== */
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-Thin.ttf') format('truetype'); font-weight:100; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-ThinItalic.ttf') format('truetype'); font-weight:100; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-ExtraLight.ttf') format('truetype'); font-weight:200; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf') format('truetype'); font-weight:200; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-Light.ttf') format('truetype'); font-weight:300; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-LightItalic.ttf') format('truetype'); font-weight:300; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-Italic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-MediumItalic.ttf') format('truetype'); font-weight:500; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-SemiBold.ttf') format('truetype'); font-weight:600; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf') format('truetype'); font-weight:600; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-Bold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-BoldItalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-ExtraBold.ttf') format('truetype'); font-weight:800; font-style:normal; font-display:swap; }
+@font-face { font-family:'JetBrainsMonoNL Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf') format('truetype'); font-weight:800; font-style:italic; font-display:swap; }
+
+/* ======================================
+   7. LXGW WenKai 系列
+   ====================================== */
+@font-face { font-family:'LXGW WenKai'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/LXGWWenKai-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'LXGW WenKai'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/LXGWWenKai-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:'LXGW WenKai Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/LXGWWenKaiMono-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'LXGW WenKai Screen'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/LXGWWenKaiScreen.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+
+/* ======================================
+   8. Zed Mono - 4 变体
+   字体名: Zed Mono
+   ====================================== */
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extended.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendeditalic.ttf') format('truetype'); font-weight:normal; font-style:italic; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendedbold.ttf') format('truetype'); font-weight:bold; font-style:normal; font-display:swap; }
+@font-face { font-family:'Zed Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/zed-mono-extendedbolditalic.ttf') format('truetype'); font-weight:bold; font-style:italic; font-display:swap; }
+
+/* ======================================
+   9. 仓耳今楷
+   字体名: TsangerJinKai02-W04
+   ====================================== */
+@font-face { font-family:'TsangerJinKai02-W04'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/TsangerJinKai02-W04.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+
+/* ======================================
+   10. NerdFont 图标字体
+   字体名: Symbols Nerd Font Mono
+   ====================================== */
+@font-face { font-family:'Symbols Nerd Font Mono'; src:url('https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/ttf/SymbolsNerdFontMono-Regular.ttf') format('truetype'); font-weight:normal; font-style:normal; font-display:swap; }
+
+/* ======================================
+   全局默认字体
+   ====================================== */
+* {
+  font-family: 'Symbols Nerd Font Mono', 'JetBrains Mono', 'TsangerJinKai02-W04', sans-serif;
+}
