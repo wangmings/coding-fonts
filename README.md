@@ -1,6 +1,6 @@
 # coding-fonts
 
-编程字体集合，通过 jsDelivr CDN 提供远程加载。
+编程字体集合，通过 jsDelivr CDN 提供远程加载。所有字体使用 WOFF2 格式，压缩率高，加载更快。
 
 ## 包含字体
 
@@ -52,4 +52,17 @@ font-family: 'Symbols Nerd Font Mono', monospace;
 字重：JetBrains 系列支持 `100`(Thin) ~ `800`(ExtraBold)，LXGW 支持 `normal`/`500`，Zed Mono 支持 `normal`/`bold`。均可搭配 `italic`。
 
 ### 直接引用单个字体文件
+
+```
+https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/JetBrainsMono-Regular.woff2
+https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/JetBrainsMapleMono-Regular.woff2
+https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/LXGWWenKai-Regular.woff2
+https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/zed-mono-extended.woff2
+https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/TsangerJinKai02-W04.woff2
+https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/SymbolsNerdFontMono-Regular.woff2
+```
+
+## 测试
+
+用浏览器打开 `test-fonts.html` 可查看所有字体渲染效果。
 
