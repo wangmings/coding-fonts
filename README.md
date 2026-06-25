@@ -24,7 +24,7 @@
 在 HTML 中引入 CSS 即可使用全部字体：
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/fonts.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2.css">
 ```
 
 ### 字体调用示例
@@ -64,5 +64,5 @@ https://cdn.jsdelivr.net/gh/wangmings/coding-fonts@main/woff2/SymbolsNerdFontMon
 
 ## 测试
 
-用浏览器打开 `test-fonts.html` 可查看所有字体渲染效果。
+用浏览器打开 `test-woff2.html` 查看 WOFF2 字体渲染效果，`test-ttf.html` 查看 TTF 字体渲染效果。
 
